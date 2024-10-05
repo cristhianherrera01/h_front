@@ -20,7 +20,7 @@ function Form({callback}){
     const validateUser = (event)=>{
         event.preventDefault();
 
-        fetch('https://h-back-cristhian-felipe-herrera-cortes-projects.vercel.app/v1/signos/login', {
+        fetch('https://h-back.vercel.app/v1/signos/login', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'},

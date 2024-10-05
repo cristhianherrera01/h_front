@@ -40,7 +40,7 @@ const Restablecer = ()=>{
 
         e.preventDefault();
         
-        fetch(`https://h-back-cristhian-felipe-herrera-cortes-projects.vercel.app/v1/signos/restablecer`,{
+        fetch(`https://h-back.vercel.app/v1/signos/restablecer`,{
 
             method:'PATCH',
             headers: {"content-Type":"application/json"},

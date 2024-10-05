@@ -36,7 +36,7 @@ const Registro = ()=>{
         // console.log(signoEditar);
         // console.log(textoEditar);
         e.preventDefault();
-        fetch(`https://h-back-cristhian-felipe-herrera-cortes-projects.vercel.app/v1/signos/registro`, {
+        fetch(`https://h-back.vercel.app/v1/signos/registro`, {
             method: 'PATCH',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify({rol, ...addcredenciales})
